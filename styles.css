@@ -7,16 +7,16 @@
 }
 
 :root {
-    --bg: #fbfcfe;
-    --bg-alt: #f3f6fb;
-    --bg-tint: #eaf1fb;
+    --bg: #f7f9fc;
+    --bg-alt: #eef3f9;
+    --bg-tint: #e3ebf6;
     --text: #152033;
     --text-muted: #5b6b80;
     --primary: #1d4ed8;
     --primary-hover: #1e40af;
     --primary-soft: rgba(29, 78, 216, 0.08);
-    --border: #d7e3f4;
-    --border-strong: #b8cceb;
+    --border: #d5e0ef;
+    --border-strong: #b7c9e3;
     --radius-lg: 22px;
     --radius-md: 14px;
     --radius-sm: 10px;
@@ -38,8 +38,8 @@ body {
     min-height: 100vh;
     line-height: 1.6;
     background:
-        radial-gradient(ellipse 80% 50% at 0% -10%, rgba(29, 78, 216, 0.09), transparent 55%),
-        radial-gradient(ellipse 60% 40% at 100% 0%, rgba(14, 116, 144, 0.06), transparent 50%),
+        radial-gradient(ellipse 80% 50% at 0% -10%, rgba(29, 78, 216, 0.07), transparent 55%),
+        radial-gradient(ellipse 60% 40% at 100% 0%, rgba(29, 78, 216, 0.04), transparent 50%),
         var(--bg);
     overflow-x: hidden;
 }
@@ -66,8 +66,8 @@ a {
     z-index: 40;
     backdrop-filter: blur(18px) saturate(1.2);
     -webkit-backdrop-filter: blur(18px) saturate(1.2);
-    background: rgba(251, 252, 254, 0.82);
-    border-bottom: 1px solid rgba(215, 227, 244, 0.85);
+    background: rgba(247, 249, 252, 0.84);
+    border-bottom: 1px solid rgba(213, 224, 239, 0.9);
     transition: box-shadow 0.25s var(--ease);
 }
 
@@ -202,8 +202,8 @@ a {
 .hero {
     padding: 4.25rem 0 3.25rem;
     background:
-        linear-gradient(160deg, rgba(219, 231, 255, 0.95) 0%, rgba(237, 243, 255, 0.7) 45%, rgba(214, 228, 255, 0.55) 100%),
-        radial-gradient(circle at 85% 20%, rgba(14, 165, 233, 0.12), transparent 40%);
+        linear-gradient(165deg, #e8effa 0%, #f0f5fb 42%, #e6eef8 100%),
+        radial-gradient(circle at 88% 18%, rgba(29, 78, 216, 0.08), transparent 42%);
 }
 
 .hero-inner {
@@ -374,9 +374,9 @@ section {
     color: var(--text);
     background-color: var(--bg-alt);
     background-image:
-        linear-gradient(rgba(29, 78, 216, 0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(29, 78, 216, 0.03) 1px, transparent 1px),
-        radial-gradient(circle at 50% 0%, rgba(29, 78, 216, 0.07), transparent 38%);
+        linear-gradient(rgba(29, 78, 216, 0.028) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(29, 78, 216, 0.028) 1px, transparent 1px),
+        radial-gradient(circle at 50% 0%, rgba(29, 78, 216, 0.055), transparent 40%);
     background-size: 72px 72px, 72px 72px, 100% 100%;
     padding: 5rem 0;
 }
@@ -495,7 +495,7 @@ section {
 
 /* Resume */
 .resume-section {
-    background: var(--bg-alt);
+    background: var(--bg);
 }
 
 .resume-heading {
@@ -564,7 +564,7 @@ section {
 
 /* Achievements */
 .achievements {
-    background: var(--bg-tint);
+    background: var(--bg-alt);
 }
 
 .achievements-list {
@@ -669,7 +669,7 @@ section {
 
 /* Beyond code */
 .beyond-code {
-    background: var(--bg-alt);
+    background: var(--bg-tint);
 }
 
 .section-kicker {
@@ -728,7 +728,7 @@ section {
 
 /* Projects */
 .projects {
-    background: var(--bg-alt);
+    background: var(--bg);
 }
 
 #hackathon-projects {
@@ -736,7 +736,7 @@ section {
 }
 
 .personal-projects {
-    background: var(--bg);
+    background: var(--bg-alt);
 }
 
 /* Experience */
@@ -851,7 +851,7 @@ section {
 /* Contact */
 .contact {
     background:
-        radial-gradient(ellipse 70% 60% at 50% 0%, rgba(29, 78, 216, 0.06), transparent 55%),
+        radial-gradient(ellipse 70% 60% at 50% 0%, rgba(29, 78, 216, 0.05), transparent 55%),
         var(--bg);
 }
 
@@ -982,8 +982,8 @@ section {
 .site-footer {
     padding: 2.5rem 0 2.75rem;
     background:
-        radial-gradient(ellipse 60% 80% at 50% 0%, rgba(37, 99, 235, 0.18), transparent 55%),
-        #0b1120;
+        radial-gradient(ellipse 60% 80% at 50% 0%, rgba(29, 78, 216, 0.2), transparent 55%),
+        #0c1220;
     color: #e5e7eb;
 }
 
